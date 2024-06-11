@@ -85,7 +85,7 @@ int main() {
 
     switch (cs) {
         case q0:
-            if (strcmp(keyword, "auto") == 0 || strcmp(keyword, "case") == 0)
+            if (strcmp(keyword, "auto") == 0 )
                 cs = qf;
             break;
         case q1:
@@ -93,7 +93,7 @@ int main() {
                 cs = qf;
             break;
         case q2:
-            if (strcmp(keyword, "char") == 0 || strcmp(keyword, "const") == 0)
+            if (strcmp(keyword, "char") == 0 || strcmp(keyword, "const") == 0 || strcmp(keyword, "case") == 0)
                 cs = qf;
             break;
         case q3:
